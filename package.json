@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-userscripts",
+  "version": "1.0.0",
+  "description": "Shared ESLint userscripts configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolter/eslint-config-userscripts.git"
+  },
+  "keywords": [
+    "userscript"
+  ],
+  "author": "Iulian Onofrei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/revolter/eslint-config-userscripts/issues"
+  },
+  "homepage": "https://github.com/revolter/eslint-config-userscripts#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
