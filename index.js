@@ -5,6 +5,9 @@ module.exports = {
         "es6": true,
         "greasemonkey": true
     },
+    "parserOptions": {
+    	"ecmaVersion": 2018
+    },
     "rules": {
         /* Possible Errors */
 
