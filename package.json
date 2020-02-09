@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/revolter/eslint-config-userscripts#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 6"
   }
 }

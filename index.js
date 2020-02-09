@@ -49,7 +49,7 @@ module.exports = {
         ],
         "no-fallthrough": [
             "error", {
-                "commentPattern": "fall\\-through"
+                "commentPattern": "fall-through"
             }
         ],
         // Remove inline disables for this rule after this gets fixed:
@@ -135,7 +135,7 @@ module.exports = {
         "capitalized-comments": [
             "error",
             "always", {
-                "ignorePattern": "fall\\-through",
+                "ignorePattern": "fall-through",
                 "ignoreConsecutiveComments": true
             }
         ],
@@ -146,6 +146,10 @@ module.exports = {
         "func-names": [
             "error",
             "as-needed"
+        ],
+        "function-call-argument-newline": [
+            "error",
+            "never"
         ],
         "function-paren-newline": [
             "error",
@@ -167,7 +171,7 @@ module.exports = {
                 // Remove this after updating to the latest version of
                 // ESLint.
                 "position": "above",
-                "ignorePattern": "fall\\-through"
+                "ignorePattern": "fall-through"
             }
         ],
         "lines-around-comment": [
