@@ -1,10 +1,10 @@
 module.exports = {
+    "extends": "eslint:all",
     "env": {
         "browser": true,
         "es6": true,
         "greasemonkey": true
     },
-    "extends": "eslint:all",
     "rules": {
         /* Possible Errors */
 
